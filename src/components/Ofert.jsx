@@ -82,6 +82,18 @@ function Ofert() {
                       {/* falta un boton para denunciar publicaciones */}
                       {token && (
                         <>
+                          <Link to={`/form`}>
+                            <button
+                              type="button"
+                              className="btn btn-outline-success"
+                              style={{
+                                border: "1px solid black",
+                                margin: "10px",
+                              }}
+                            >
+                              Agregar
+                            </button>
+                          </Link>
                           <Link to={`/edit/${task.id}`}>
                             <button
                               type="button"

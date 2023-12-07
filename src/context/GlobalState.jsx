@@ -74,6 +74,7 @@ const GlobalProvider = ({ children }) => {
         {
           headers: {
             "Content-Type": "application/json",
+            Authorization: `${token}`,
           },
         }
       );
@@ -81,6 +82,7 @@ const GlobalProvider = ({ children }) => {
         throw new Error("Error al agregar la tarea a la base de datos");
       }
       const newTask = response.data;
+      navigate("/ofert");
       dispatch({
         type: "ADD_TASK",
         payload: newTask,
