@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Lora:wght@500&family=Mulish:ital,wght@0,300;1,200&family=Nunito+Sans:opsz,wght@6..12,300&family=PT+Sans&display=swap");
+.name {
+  font-family: "PT Sans", sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 100;
+  font-weight: bold;
+}
+.name2 {
+  font-family: "PT Sans", sans-serif;
+  color: rgb(253, 253, 253);
+  font-size: 30px;
+  font-weight: bold;
+}
+.ul1 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+.custom-li:hover {
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#nav-but button {
+  border: none;
+}
+.title {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+
+#data h2 {
+  font-family: "Karla", sans-serif;
+  font-size: 28px;
+}
+
+#data p ul li {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: grey;
+}
+.just {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 4%;
+  text-align: justify;
+}
+
+.ofert-2 {
+  font-family: "Karla", sans-serif;
+  font-size: 38px;
+}
+.container-2 {
+  width: 800px;
+  padding: 1%;
+  text-align: justify;
+}
+.fon {
+  font-family: "Karla", sans-serif;
+}
+.fon2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+}
+
+.fon3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+.just2 {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 1%;
+  text-align: justify;
+}
+
+.just3 {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  padding: 1%;
+  text-align: start;
+}
+.just4 {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  padding: 1%;
+  text-align: justify;
+  color: gray;
+}
+.bor {
+  border: 1px solid black;
+}
+
+.error {
+  justify-content: center;
+  align-items: center;
+}

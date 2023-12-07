@@ -1,0 +1,11 @@
+datos que necesito para agregar una oferta de empleo:
+1-vacante
+2-descripcion
+3-conocimiento
+4-experiencia
+5-nivel academico
+6-edad y genero
+7-lugar
+8-telefono
+9-correo
+10-horarios
