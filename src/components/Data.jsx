@@ -1,6 +1,6 @@
 import "../css/style.css";
 import { useContext, useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { GlobalContext } from "../context/GlobalState";
 const OfertaLaboral = () => {
   const [oferta, setOferta] = useState({
@@ -98,9 +98,9 @@ const OfertaLaboral = () => {
                       style={{ border: "1px solid black" }}
                       onChange={toggleButton}
                     />
-                    <a href="./terminos.html">
-                      Acepto los términos y condiciones
-                    </a>
+                    <Link to={"/terminos"}>
+                      <a>Acepto los términos y condiciones</a>
+                    </Link>
                   </label>
                 </div>
                 <div className="d-flex justify-content-center my-3">

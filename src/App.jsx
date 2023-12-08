@@ -9,9 +9,10 @@ import Contactus from "./components/Contactus";
 import Data from "./components/Data";
 import Nofund from "./components/Nofund";
 import OfertForm from "./components/OfertForm";
-import Message from "./components/message";
+import Message from "./components/Message";
 import Login from "./components/Login";
 import ProtectedRoute from "./auth/ProtectedRoute";
+import Terminos from "./components/Terminos";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/data/:id" element={<Data />} />
             <Route path="/mensajes" element={<Message />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/terminos" element={<Terminos />} />
             <Route path="*" element={<Nofund />} />
             <Route element={<ProtectedRoute />}>
               <Route path="/form" element={<OfertForm />} />
