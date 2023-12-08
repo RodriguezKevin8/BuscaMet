@@ -19,7 +19,9 @@ const GlobalProvider = ({ children }) => {
   useEffect(() => {
     const fetchDataFromAPI = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/getOfert");
+        const response = await fetch(
+          "https://buscamet-api.onrender.com/api/getOfert"
+        );
         const jsonData = await response.json();
         console.log("paso por aqui ");
 
@@ -35,7 +37,9 @@ const GlobalProvider = ({ children }) => {
     };
     const fetchCometFromAPI = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/getComment");
+        const response = await fetch(
+          "https://buscamet-api.onrender.com/api/getComment"
+        );
         const jsonData = await response.json();
         console.log("paso por aqui ");
 
@@ -69,7 +73,7 @@ const GlobalProvider = ({ children }) => {
   const addOfert = async (task) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/addOfert",
+        "https://buscamet-api.onrender.com/api/addOfert",
         task,
         {
           headers: {
@@ -105,7 +109,7 @@ const GlobalProvider = ({ children }) => {
   const updateOfert = async (updatedTask) => {
     try {
       const response = await axios.put(
-        `http://localhost:3000/api/updateOfert/${updatedTask.id}`,
+        `https://buscamet-api.onrender.com/api/updateOfert/${updatedTask.id}`,
         updatedTask,
         {
           headers: {
@@ -140,12 +144,15 @@ const GlobalProvider = ({ children }) => {
 
   const deleteOfert = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/api/deleteOfert/${id}`, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `${token}`,
-        },
-      });
+      await axios.delete(
+        `https://buscamet-api.onrender.com/api/deleteOfert/${id}`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `${token}`,
+          },
+        }
+      );
 
       dispatch({
         type: "DELETE_TASK",
@@ -169,7 +176,7 @@ const GlobalProvider = ({ children }) => {
   const addComment = async (task) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/addComment",
+        "https://buscamet-api.onrender.com/api/addComment",
         task,
         {
           headers: {
