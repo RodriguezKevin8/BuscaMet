@@ -1,4 +1,4 @@
-import img1 from "../img/error.png";
+import img1 from "../img/error.avif";
 import "../css/style.css";
 function Nofund() {
   return (

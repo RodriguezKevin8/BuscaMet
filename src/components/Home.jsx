@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"; // Asegúrate de tener React Router si estás utilizando rutas
 
 import "../css/style.css";
-import img1 from "../img/1.png";
-import img2 from "../img/2.png";
-import img3 from "../img/3.png";
-import referen from "../img/references.jpg";
+import img1 from "../img/1.avif";
+import img2 from "../img/2.avif";
+import img3 from "../img/3.avif";
+import referen from "../img/references.avif";
 import ico1 from "../img/ico1.png";
 import ico2 from "../img/ico2.png";
 import ico3 from "../img/ico3.png";
