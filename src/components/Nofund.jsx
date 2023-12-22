@@ -7,7 +7,7 @@ function Nofund() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-12 d-flex error">
-              <img src={img1} alt="" />
+              <img src={img1} alt="" className="dataimg" />
             </div>
           </div>
         </div>
