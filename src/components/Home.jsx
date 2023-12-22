@@ -19,13 +19,13 @@ function Home() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active dataimg">
+            <div className="carousel-item active ">
               <img src={img1} className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-item dataimg">
+            <div className="carousel-item ">
               <img src={img2} className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-item dataimg">
+            <div className="carousel-item">
               <img src={img3} className="d-block w-100" alt="..." />
             </div>
           </div>
@@ -40,7 +40,7 @@ function Home() {
               <img
                 src={referen}
                 alt="Descripción de la imagen"
-                className="img-fluid justify-content-center border-bottom my-2 dataimg"
+                className="img-fluid justify-content-center border-bottom my-2 "
               />
             </div>
             <div className="col-lg-7 col-md-12 py-4" id="data">
