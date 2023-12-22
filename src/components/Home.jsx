@@ -20,18 +20,36 @@ function Home() {
         >
           <div className="carousel-inner">
             <div className="carousel-item active ">
-              <img src={img1} className="d-block w-100" alt="..." />
+              <img
+                src={img1}
+                className="d-block w-100"
+                alt="..."
+                width="1600"
+                height="auto"
+              />
             </div>
             <div className="carousel-item ">
-              <img src={img2} className="d-block w-100" alt="..." />
+              <img
+                src={img2}
+                className="d-block w-100"
+                alt="..."
+                width="1600"
+                height="auto"
+              />
             </div>
-            <div className="carousel-item">
-              <img src={img3} className="d-block w-100" alt="..." />
+            <div className="carousel-item ">
+              <img
+                src={img3}
+                className="d-block w-100"
+                alt="..."
+                width="1600"
+                height="auto"
+              />
             </div>
           </div>
         </div>
       </section>
-      <hr />
+
       <section>
         <div className="container my-3">
           <h2 className="text-center title my-4">Información importante</h2>
@@ -41,6 +59,8 @@ function Home() {
                 src={referen}
                 alt="Descripción de la imagen"
                 className="img-fluid justify-content-center border-bottom my-2 "
+                width="1024"
+                height="auto"
               />
             </div>
             <div className="col-lg-7 col-md-12 py-4" id="data">
@@ -90,7 +110,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <hr />
+
       <section>
         <div className="container">
           <h2 className="text-center title my-5">Conócenos</h2>
