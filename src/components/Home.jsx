@@ -2,8 +2,6 @@ import { Link } from "react-router-dom"; // Asegúrate de tener React Router si 
 
 import "../css/style.css";
 import img1 from "../img/1.avif";
-import img2 from "../img/2.avif";
-import img3 from "../img/3.avif";
 import referen from "../img/references.avif";
 import ico1 from "../img/ico1.png";
 import ico2 from "../img/ico2.png";
@@ -13,41 +11,13 @@ function Home() {
   return (
     <>
       <section>
-        <div
-          id="carouselExampleSlidesOnly"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active ">
-              <img
-                src={img1}
-                className="d-block w-100"
-                alt="..."
-                width="1600"
-                height="auto"
-              />
-            </div>
-            <div className="carousel-item ">
-              <img
-                src={img2}
-                className="d-block w-100"
-                alt="..."
-                width="1600"
-                height="auto"
-              />
-            </div>
-            <div className="carousel-item ">
-              <img
-                src={img3}
-                className="d-block w-100"
-                alt="..."
-                width="1600"
-                height="auto"
-              />
-            </div>
-          </div>
-        </div>
+        <img
+          src={img1}
+          className="d-block w-100"
+          alt="..."
+          width="1600"
+          height="auto"
+        />
       </section>
 
       <section>
